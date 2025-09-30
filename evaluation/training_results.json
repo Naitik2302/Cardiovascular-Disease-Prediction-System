@@ -1,0 +1,31 @@
+{
+  "fundus": {
+    "ResNet18": {
+      "status": "failed",
+      "description": "Fundus ResNet18 (pretrained, frozen backbone)"
+    },
+    "EfficientNet_b0": {
+      "status": "failed",
+      "description": "Fundus EfficientNet B0 (pretrained)"
+    },
+    "CustomCNN": {
+      "status": "failed",
+      "description": "Fundus Custom CNN (from scratch)"
+    }
+  },
+  "ecg": {
+    "1D_CNN": {
+      "status": "failed",
+      "description": "ECG 1D CNN"
+    },
+    "LSTM": {
+      "status": "failed",
+      "description": "ECG LSTM"
+    },
+    "BiLSTM": {
+      "status": "failed",
+      "description": "ECG Bidirectional LSTM"
+    }
+  },
+  "timestamp": "2025-09-21 19:19:47"
+}

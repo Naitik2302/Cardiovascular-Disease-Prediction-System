@@ -1,0 +1,5 @@
+metric,value
+total_samples,100
+fundus_available,True
+ecg_available,True
+fused_available,True
